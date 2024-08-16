@@ -21,7 +21,7 @@ RUN pnpm run build
 
 
 # Command to run the container
-CMD [ "pnpm", "start" ]
+CMD [ "pnpm", "start:dev" ]
 
 # Prod stage
 FROM node:20
